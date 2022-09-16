@@ -1,5 +1,8 @@
 #include <stdio.h>
-/** this is my first c put
+/** 
+ * this is my first c put
+ *
+ * Description: first c put
  */
 int main(void)
 {
