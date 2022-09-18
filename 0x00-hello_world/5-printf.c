@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - this is my first c printf
  *
