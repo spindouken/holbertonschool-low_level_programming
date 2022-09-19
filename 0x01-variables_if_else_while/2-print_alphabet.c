@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print last digit of random number generated
+ * main - putchar lower case all alphabet
  *
  * Description: Betty bois
  *
@@ -10,10 +10,11 @@
  */
 int main(void)
 {
-	for(int x = 'A'; x <= 'Z'; x++)
+	char x;
+	for (x = 'a', x<= 'z', x++)
 	{
-	putchar(tolower(x));
-	putchar(small);
+		putchar(x);
 	}
+	putchar('\n');
 	return (0);	
 }
