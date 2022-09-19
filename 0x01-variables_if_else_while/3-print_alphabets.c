@@ -16,11 +16,11 @@ int main(void)
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
-	} 
-    for (z = 'A'; z <= 'Z'; z++)
-    {
-        putchar(z);
-    }
+	}
+	for (z = 'A'; z <= 'Z'; z++)
+	{
+		putchar(z);
+	}
 	putchar('\n');
 	return (0);
 }
