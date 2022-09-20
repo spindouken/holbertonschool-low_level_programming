@@ -7,9 +7,9 @@
  * Return: 0 for absolute value
  *
  */
-int _abs(int)
+int _abs(int r)
 {
-	if (int < 0)
+	if (r < 0)
 	{
 		return (int * -1);
 	}
