@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet 
+ * print_alphabet
  *
  * Description: print all of the lower case alphabet
  *
@@ -9,7 +9,7 @@
 void print_alphabet(void);
 {
 	char x;
-	
+
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		_putchar(x);
