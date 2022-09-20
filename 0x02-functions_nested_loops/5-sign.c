@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - print if the variable is negative positive or zero
- * @c: variable
+ * @n: variable
  * Description: return the sign of the variable
  *
  * Return: 1 if n is greater than zero, 0 if zero, and -1 if less than zero
