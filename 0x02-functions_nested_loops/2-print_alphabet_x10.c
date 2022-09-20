@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - making function that prints the alphabet
+ * print_alphabet_x10 - making function that prints the alphabet 10 times
  *
- * Description: print all of the lower case alphabet
+ * Description: print all of the lower case alphabet 19 times
  *
  * Return: On success 0.
  */
