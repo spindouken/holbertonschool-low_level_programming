@@ -11,10 +11,10 @@ int _abs(int)
 {
 	if (int < 0)
 	{
-		(return: int * -1)
+		return (int * -1)
 	}
-	else (int > 0)
+	else
 	{
-		return: 0
+		return (0);
 	}
 }
