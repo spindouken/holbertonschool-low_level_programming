@@ -1,20 +1,27 @@
 #include "main.h"
 /**
- * _abs - print the absolute value of the variable
- * @int: variable
- * Description: print the absolute value of the variable
+ * print_sign - print if the variable is negative positive or zero
+ * @n: variable
+ * Description: return the sign of the variable
  *
- * Return: 0 for absolute value
+ * Return: 1 if n is greater than zero, 0 if zero, and -1 if less than zero
  *
  */
-int _abs(int)
+int print_sign(int n)
 {
-	if (int < 0)
+	if (n > 0)
 	{
-		return (int * -1)
+		_putchar('+');
+		return (1);
+	}
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
 	}
 	else
 	{
+		_putchar('0');
 		return (0);
 	}
 }
