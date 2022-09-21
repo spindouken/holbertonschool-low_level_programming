@@ -14,7 +14,7 @@ int print_last_digit(int r)
 
 	(r % 10 = i);
 
-	for (r < 0);
+	for (r < 0)
 	{
 		(r * -1);
 	}
