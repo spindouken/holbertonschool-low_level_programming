@@ -1,17 +1,21 @@
 #include "main.h"
 /**
- * jack_bauer - 
+ * jack_bauer - print every minute of the day
  * @r: variable
- * Description: print the last digit of the variable
+ * Description: print every minute of the day
  *
  * Return: 0 always
  *
  */
-int print_last_digit(int r)
+void jack_bauer(void)
 {
-	int i
+	int hour, minute;
 
-	(r % 10 = i);
-	_putchar(i);
-	return (0);
+	for (hour = 0, hour <= 23, hour++)
+	{
+		for (minute = 0; minute <= 59, minute++)
+		{
+			_putchar
+		}
+	}
 }
