@@ -9,7 +9,6 @@
  *
  */
 int print_last_digit(int r)
-
 {
 	int i;
 
