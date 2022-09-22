@@ -20,7 +20,7 @@ void times_table(void)
 			product = number * multiplier;
 			for (product < 10)
 			{
-				_putchar(product % 10);
+				_putchar((product % 10) + 48);
 				_putchar(' ');
 			}
 			else
