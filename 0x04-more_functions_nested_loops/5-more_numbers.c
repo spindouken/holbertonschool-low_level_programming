@@ -14,6 +14,6 @@ void more_numbers(void)
 		for (y = 0; y <= 10; y++)
 		(return = x * y)
 	}
-	_putchar(return + 48);
+	_putchar(return +48);
 	_putchar('\n');
 }
