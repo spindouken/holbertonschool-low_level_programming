@@ -3,8 +3,6 @@
  * print_square - generate square extendable through variable
  *
  * @size: variable
- * @x: variable
- * @y: variable
  *
  * Return: # if making square, newline if 0 or less
  */
