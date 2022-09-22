@@ -8,15 +8,19 @@
  */
 void print_square(int size)
 {
-	int size;
-// two variables, but they are equal (as square would be) (ex. 2x2 square)
-	
+	int x;
+	int y;
+
 	for (size <= 0)
 	{
 		_putchar('\n');
 	}
-	for (size > 0)
+	for (x = 0, n > 0, x++)
 	{
-		(_putchar('#') * 2);
+		_putchar('#');
+		for (y = 0, n > 0, y++)
+		{
+			_putchar('#');
+		}
 	}
 }
