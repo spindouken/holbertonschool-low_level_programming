@@ -8,16 +8,17 @@ void times_table(void)
 {
 	int number;
 	int multiplier;
-	int equals;
+	int product;
 
 	for (number = 0; number <= 9; number++)
 	{
-		_putchar(number+48)
+		_putchar(number + 48);
 		for (multiplier = 1; multiplier <= 9; multiplier++)
 		{
 			_putchar(',');
 			_putchar(' ');
-			equals = number * multiplier;
+			product = number * multiplier;
+			_putchar(product + 48);
 		}
 		_putchar('\n');
 	}
