@@ -14,35 +14,19 @@ void times_table(void)
 	{
 		for (multiplier = 0; multiplier <= 9; multiplier++)
 		{
-			product = (number * multiplier);
-			if (product < 9)
+			if (product <= 9)
 			{
-				if (multiplier <= 9)
-				{
-					_putchar((product % 10) + 48);
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar((product / 10) + 48);
-					_putchar((product % 10) + 48);
-					_putchar(',');
-					_putchar(' ');
-				}
+				_putchar(' ');
 			}
 			else
 			{
-				if (multiplier <= 9)
-				{
-					_putchar((product % 10) + 48);
-				}
-				else
-				{
-					_putchar((product / 10) + 48);
-					_putchar((product % 10) + 48);
-				}
+			_putchar((prod / 10) + 48);
+			}
+			_putchar((prod % 10) + 48);
+			if (multiplier < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
