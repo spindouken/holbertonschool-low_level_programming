@@ -7,6 +7,7 @@
  * Return: \
  */
 void print_diagonal(int n)
+
 {
 	int x;
 
