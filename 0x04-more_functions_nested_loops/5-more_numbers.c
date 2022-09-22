@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (x = 0; x <= 14; x++)
 	{
-		if (y = 0; y <= 10; y++)
+		for (y = 0; y <= 10; y++)
 		(return = x * y)
 	}
 	_putchar(return + 48)
