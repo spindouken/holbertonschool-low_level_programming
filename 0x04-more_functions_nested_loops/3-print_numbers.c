@@ -2,7 +2,7 @@
 /**
  * print_numbers - print numbers
  * @x: variable
- * Return: 1 if character is a digit, 0 otherwise
+ * Return: void
  */
 void print_numbers(void)
 {
