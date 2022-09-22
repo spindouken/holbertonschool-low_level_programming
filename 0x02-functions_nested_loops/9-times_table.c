@@ -17,7 +17,7 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
-			number * mulitplier = equals;
+			number * multiplier = equals;
 
 
 		}
