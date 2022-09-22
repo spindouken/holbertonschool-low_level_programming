@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - print numbers
- * @a: variable
+ * @x: variable
  * Return: 1 if character is a digit, 0 otherwise
  */
 void print_numbers(void)
