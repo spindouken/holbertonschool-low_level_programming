@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - print numbers
+ * print_most_numbers - print only certain numbers
  *
  * Return: void
  */
