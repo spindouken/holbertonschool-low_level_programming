@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - print string to stdout
+ * _puts - print full string
  *
  * Return: void
  */
