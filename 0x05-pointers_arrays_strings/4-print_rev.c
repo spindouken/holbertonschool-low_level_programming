@@ -6,9 +6,9 @@
  */
 void print_rev(char *s)
 {
-	char s[450], temp;
+	char temp;
 	int x = 0, z;
-	
+
 	while (s[x] != '\0')
 	{
 		x++;
