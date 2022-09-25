@@ -16,7 +16,7 @@ void print_rev(char *s)
 
 	z = length - 1;
 
-	while (z < x)
+	while (x < z)
 	{
 		temp = s[x];
 		s[x] = s[z];
