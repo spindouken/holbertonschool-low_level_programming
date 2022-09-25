@@ -21,9 +21,9 @@ void print_rev(char *s)
 		temp = s[x];
 		s[x] = s[z];
 		s[z] = temp;
-		z++;
-		x--;
-		_putchar(s[z]);
+		x++;
+		z--;
+		_putchar(s[x]);
 	}
 	_putchar('\n');
 }
