@@ -6,10 +6,10 @@
  */
 void print_rev(char *s)
 {
-    char s[100]= {0}, Temp = 0;
-    int x = 0, z = 0;
+	char s[100] = {0}, Temp = 0;
+	int x = 0, z = 0;
 
-    while(s[z++] != '\0');
+	while (s[z++] != '\0')
 
 	z--;
 
@@ -25,5 +25,5 @@ void print_rev(char *s)
 		_putchar(s[z]);
 	}
 	_putchar("\n");
-	return 0;
+	return (0);
 }
