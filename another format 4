@@ -7,15 +7,15 @@
  */
 void print_rev(char *s)
 {
-	char temp;
-	int x = 0, z;
+	int length = 0, x, z, temp;
 
 	while (s[x] != '\0')
 	{
 		x++;
+		length++;
 	}
 
-	z = x - 1;
+	z = length - 1;
 
 	while (x < z)
 	{
