@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - print full string
- *
+ *@str: target string
  * Return: void
  */
 void _puts(char *str)
@@ -12,7 +12,7 @@ void _puts(char *str)
 
 	while (str[x] != '\0')
 		{
-			_putchar(str [x]));
+			_putchar(str[x]);
 			x++;
 		}
 	_putchar('\n');
