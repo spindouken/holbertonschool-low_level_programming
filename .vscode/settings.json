@@ -1,6 +1,7 @@
 {
     "files.eol": "\n",
     "files.associations": {
-        "main.h": "c"
+        "main.h": "c",
+        "working 4": "c"
     }
 }
