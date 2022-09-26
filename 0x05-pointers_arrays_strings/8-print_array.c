@@ -2,18 +2,17 @@
 /**
  * print_array - print n elements of array from first to last
  * @n: indicates amount of array elements to be printed from first to  last
- * @a: variable for place in array
+ * @a: array placeholder
+ * @x: variable for place in array
  * Return: void
  */
 void print_array(int *a, int n)
 {
-	int array[1000];
-	int *a = 0;
+	int x;
 
-	while (*a <= n)
+	while (x = 0; x <= n; x++)
 	{
-		_putchar(array[a]);
-		a++;
+		_putchar(a[x]);
 	}
 	_putchar('\n');
 }
