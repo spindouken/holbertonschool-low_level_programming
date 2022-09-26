@@ -13,9 +13,8 @@ void print_array(int *a, int n)
 
 	while (x <= z)
 	{
-		if
+		if (x == 0)
 		{
-			x == 0;
 			printf("%d", a[x]);
 		}
 		else
