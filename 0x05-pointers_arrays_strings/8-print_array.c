@@ -8,10 +8,12 @@
 void print_array(int *a, int n)
 {
 	int array[1000];
+	int *a = 0;
 
-	while (a = 0; a <= n; a++)
+	while (*a <= n)
 	{
 		_putchar(array[*a]);
+		a++;
 	}
 	_putchar('\n');
 }
