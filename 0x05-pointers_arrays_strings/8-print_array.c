@@ -10,9 +10,9 @@ void print_array(int *a, int n)
 {
 	int x = 0;
 
-	while (x <= n)
+	while (x <= n && x != 0)
 	{
-		printf(" , %d", a[x]);
+		printf(", %d", a[x]);
 		x++;
 	}
 	_putchar('\n');
