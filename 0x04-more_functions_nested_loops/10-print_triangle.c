@@ -2,9 +2,9 @@
 /**
  * print_triangle - generate triangle extendable through variable
  *
- * @n: variable
+ * @size: variable
  *
- * Return: 
+ * Return: # for triangle, 0 is new line
  */
 void print_triangle(int size)
 {
