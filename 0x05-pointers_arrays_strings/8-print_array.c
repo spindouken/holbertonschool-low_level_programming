@@ -9,11 +9,10 @@
 void print_array(int *a, int n)
 {
 	int x = 0;
-	int z;
+	int z = (n - 1);
 
-	while (x <= n)
+	while (x <= z)
 	{
-		z = (n - 1);
 		printf(", %d", a[x]);
 		x++;
 	}
