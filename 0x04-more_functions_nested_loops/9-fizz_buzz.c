@@ -1,22 +1,31 @@
 #include "main.h"
 /**
- * print_square - generate square extendable through variable
+ * Description: famous fizz buzz
  *
- * @n: variable
  *
- * Return: 
+ * Return: x value, fizz, buzz, or fizzbuzz
  */
-void print_square(int size)
+int main(void)
 {
 	int x;
 
-	if (n <= 0)
+	while (x = 1; x <= 100; x++)
 	{
-		_putchar('\n');
-	}
-	for (x = 0; x < n; x++)
-	{
-		_putchar(92);
-		_putchar('\n');
+		if (x % 5 == 0 && x % 3 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (x % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else if (x % 3 == 0)
+		{
+			print("Fizz");
+		}
+		else
+		{
+			printf(%d, x);
+		}
 	}
 }
