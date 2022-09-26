@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * puts_half - print the second half of a string
- * @n: variable that indicates the amount of array elements to be printed from first to last
- * @a: variable for place in array 
+ * print_array - print n elements of array from first to last
+ * @n: indicates amount of array elements to be printed from first to  last
+ * @a: variable for place in array
  * Return: void
  */
 void print_array(int *a, int n)
