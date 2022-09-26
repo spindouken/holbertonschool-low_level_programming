@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_array - print n elements of array from first to last
@@ -11,7 +12,7 @@ void print_array(int *a, int n)
 
 	while (x <= n)
 	{
-		_putchar((a[x]) + 48);
+		printf(" , %d", a[x]);
 		x++;
 	}
 	_putchar('\n');
