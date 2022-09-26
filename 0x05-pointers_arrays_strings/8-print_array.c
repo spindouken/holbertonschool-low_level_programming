@@ -8,14 +8,14 @@
 void print_array(int *a, int n)
 {
 	int *a = 0;
+	int z;
 
-	arr[1000];
+	array[1000];
 
 	while (*a <= n)
 	{
 		a++;
-		_putchar(48 + *a);
+		_putchar(array[*a]);
 	}
-
 	_putchar('\n');
 }
