@@ -20,7 +20,7 @@ void puts_half(char *str)
 				z++;
 			}
 		}
-		if (x % 2 == 1)
+		else if (x % 2 == 1)
 		{
 			n = (((x - 1) / 2) + 1);
 
