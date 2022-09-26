@@ -26,7 +26,7 @@ void puts_half(char *str)
 	}
 	else if (x % 2 == 1)
 	{
-		n = (((x - 1) / 2) + 1);
+		n = ((x - 1) / 2);
 
 		while (str[n] != '\0')
 		{
@@ -34,5 +34,5 @@ void puts_half(char *str)
 			n++;
 		}
 	}
-  	_putchar('\n');
+	_putchar('\n');
 }
