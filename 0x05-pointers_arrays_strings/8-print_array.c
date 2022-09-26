@@ -8,9 +8,9 @@
 void print_array(int *a, int n)
 {
 	int array[1000];
-	int *a = 0;
+	int a = 0;
 
-	while (*a <= n)
+	while (a <= n)
 	{
 		_putchar(array[*a]);
 		a++;
