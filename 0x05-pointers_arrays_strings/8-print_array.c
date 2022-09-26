@@ -7,8 +7,6 @@
  */
 void print_array(int *a, int n)
 {
-	int *a = 0;
-
 	int array[1000];
 
 	while (*a <= n)
