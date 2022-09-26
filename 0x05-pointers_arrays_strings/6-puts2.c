@@ -12,7 +12,6 @@ void puts2(char *str)
 	{
 		_putchar(str[x]);
 		(x + 2);
-		// need plus two
 	}
 	_putchar('\n');
 }
