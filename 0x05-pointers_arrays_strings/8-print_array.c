@@ -9,11 +9,11 @@ void print_array(int *a, int n)
 {
 	int *a = 0;
 
-	array[1000];
+	int array[1000];
 
 	while (*a <= n)
 	{
-		*a++;
+		a++;
 		_putchar(array[*a]);
 	}
 	_putchar('\n');
