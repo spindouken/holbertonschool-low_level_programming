@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int x;
+	int x = 1;
 
-	while (x = 1; x <= 100; x++)
+	while (x <= 100)
 	{
 		if (x % 5 == 0 && x % 3 == 0)
 		{
@@ -25,7 +25,8 @@ int main(void)
 		}
 		else
 		{
-			printf(%d, x);
+			printf( %d, x);
 		}
+		x++;
 	}
 }
