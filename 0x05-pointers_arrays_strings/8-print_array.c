@@ -8,11 +8,12 @@
  */
 void print_array(int *a, int n)
 {
-	int x;
+	int x = 0;
 
-	while (x = 0; x <= n; x++)
+	while (x <= n)
 	{
 		_putchar(a[x]);
+		x++;
 	}
 	_putchar('\n');
 }
