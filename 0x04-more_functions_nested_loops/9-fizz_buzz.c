@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int x = 1;
+	int x;
 
 	while (x <= 100)
 	{
@@ -16,19 +16,19 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		if (x % 5 == 0)
+		else if (x % 5 == 0)
 		{
 			printf("Buzz");
 		}
-		if (x % 3 == 0)
+		else if (x % 3 == 0)
 		{
 			printf("Fizz");
 		}
 		else
 		{
-			printf(" ");
+			printf("%d", x);
 		}
 		x++;
+		printf("\n");
 	}
-	printf("\n");
 }
