@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Description: famous fizz buzz
+ * main - famous fizz buzz
  *
  *
  * Return: x value, fizz, buzz, or fizzbuzz
