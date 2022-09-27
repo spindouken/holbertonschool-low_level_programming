@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int x;
+	int x = 1;
 
 	while (x <= 100)
 	{
