@@ -4,13 +4,13 @@
  * main - famous fizz buzz
  *
  *
- * Return: x value, fizz, buzz, or fizzbuzz
+ * Return: 0 success
  */
 int main(void)
 {
-	int x = 1;
+	int x;
 
-	while (x <= 100)
+	while (x = 1; x <= 100; x++)
 	{
 		if (x % 5 == 0 && x % 3 == 0)
 		{
@@ -32,7 +32,7 @@ int main(void)
 		{
 			printf(" ");
 		}
-		x++;
-		printf("\n");
-	}
+	}		
+	printf("\n");
+	return (0);
 }
