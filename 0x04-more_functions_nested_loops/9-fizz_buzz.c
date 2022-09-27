@@ -21,12 +21,13 @@ int main(void)
 		}
 		else if (x % 3 == 0)
 		{
-			print("Fizz");
+			printf("Fizz");
 		}
 		else
 		{
-			printf( %d, x);
+			printf(" ");
 		}
 		x++;
 	}
+	printf("\n");
 }
