@@ -4,13 +4,17 @@
  *
  * @size: variable
  *
- * Return: # for triangle, 0 is new line
+ * Return: void
  */
 void print_triangle(int size)
 {
 	int x;
 
-	if (n <= 0)
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+	for (n <= 0)
 	{
 		_putchar('\n');
 	}
