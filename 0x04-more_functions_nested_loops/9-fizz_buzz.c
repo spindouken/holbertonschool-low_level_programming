@@ -10,7 +10,7 @@ int main(void)
 {
 	int x;
 
-	for (x <= 100)
+	while (x <= 100)
 	{
 		if (x % 5 == 0 && x % 3 == 0)
 		{
@@ -27,6 +27,10 @@ int main(void)
 		else
 		{
 			printf("%d", x);
+		}
+		if (x != 100)
+		{
+			printf(" ");
 		}
 		x++;
 		printf("\n");
