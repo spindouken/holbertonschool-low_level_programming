@@ -15,8 +15,7 @@ int x, z;
 		{
 			for (z = 1; x > z; z++)
 				_putchar(32);
-			_putchar(92);
-			_putchar(92);
+			_putchar('\\');
 			_putchar('\n');
 		}
 
