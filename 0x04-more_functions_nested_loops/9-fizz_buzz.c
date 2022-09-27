@@ -10,7 +10,7 @@ int main(void)
 {
 	int x;
 
-	while (x = 1; x <= 100; x++)
+	for (x = 1; x <= 100; x++)
 	{
 		if (x % 5 == 0 && x % 3 == 0)
 		{
