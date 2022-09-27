@@ -7,7 +7,8 @@
 void rev_string(char *s)
 {
 	int length = 0;
-	int x;
+	int x = 0;
+	int tmp;
 
 	while (*s != '\0')
 	{
@@ -15,10 +16,14 @@ void rev_string(char *s)
 		s++;
 	}
 
-	s--;
+	length--;
 
-	for (x = length; x > 0; x--)
+	while (x < length)
 	{
-		s--;
+		tmp = s[length];
+		s[length] = s[x];
+		s[x] = tmp;
+		length++;
+		x--;
 	}
 }
