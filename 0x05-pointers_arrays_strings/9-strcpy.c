@@ -1,27 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_array - print n elements of array from first to last
- * @n: indicates amount of array elements to be printed from first to  last
- * @a: array placeholder
- * Return: void
+ * _strcpy - copy string indicted by pointer src
+ * @dest: destination
+ * @src: source
+ * Return: destination for future reference
  */
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int x = 0;
-	int z = (n - 1);
 
-	while (x <= z)
+	while (src[x] != '\0')
 	{
-		if (x == 0)
-		{
-			printf("%d", a[x]);
-		}
-		else
-		{
-			printf(", %d", a[x]);
-		}
+		dest[x] = src[x];
 		x++;
 	}
-	printf("\n");
+	dest[x] = '\0';
+	return (dest);
 }
