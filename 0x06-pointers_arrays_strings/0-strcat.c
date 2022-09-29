@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 
 	while (*(src[y] + y))
 	{
-		*(dest + x) = *(src + j);
+		*(dest + x) = *(src + y);
 		x++;
 		y++;
 	}
