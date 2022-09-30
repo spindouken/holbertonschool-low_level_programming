@@ -25,6 +25,5 @@ int _strcmp(char *s1, char *s2)
 			x = 0;
 		}
 	}
-	if (x == 0)
 	return (0);
 }
