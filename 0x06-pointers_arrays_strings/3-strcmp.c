@@ -22,7 +22,7 @@ int _strcmp(char *s1, char *s2)
 				|| (*s1 != '\0' && *s2 == '\0')
 				|| (*s1 != *s2))
 		{
-			x = 0;
+			x = 1;
 		}
 	}
 	return (0);
