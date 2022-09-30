@@ -2,8 +2,10 @@
 
 /**
  * main - check the code
- * @
- * Return: 
+ * @src: source string
+ * @dest: string to be concanated against 1st string
+ * @n: variable
+ * Return: concantenated string
  */
 
 char *_strncat(char *dest, char *src, int n)
