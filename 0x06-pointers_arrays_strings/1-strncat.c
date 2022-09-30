@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _strncat - concatenate two strings with n bytes from src string
  * @src: source string
  * @dest: string to be concanated against 1st string
- * @n: variable
+ * @n: indicated byte count max
  * Return: concantenated string
  */
 
