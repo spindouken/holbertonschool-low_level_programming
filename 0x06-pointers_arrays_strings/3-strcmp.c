@@ -4,21 +4,24 @@
  * _strcmp - compare two strings
  * @s1: string one
  * @s2: string two
- * Return: 0 on success
+ * Return: ascii integer difference of first different letter of the two strings
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1 != '\0' || *s2 != '\0')
+	int x = 0;
+	int difference;
+
+	while (*(s1 + x) != '\0' || *(s2 + x) != '\0')
 	{
-		if (*s1 == *s2)
+		if (*(s1 + x) != *(s2 + x))
 		{
-			s1++;
-			s2++;
+			difference = *(s1 + x) - *(s2 + x);
+			break;
 		}
-		else if ((*s1 == '\0' && *s2 != '\0')
-				|| (*s1 != '\0' && *s2 == '\0')
-				|| (*s1 != *s2))
+		else
+			difference = 0;
+		x++;
 	}
-	return (0);
+	return (difference);
 }
