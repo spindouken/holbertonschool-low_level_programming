@@ -4,7 +4,7 @@
  * _strcmp - compare two strings
  * @s1: string one
  * @s2: string two
- * Return: ascii integer difference of first different letter of the two strings
+ * Return: ascii integer difference of first diff letter of the two strings
  */
 
 int _strcmp(char *s1, char *s2)
