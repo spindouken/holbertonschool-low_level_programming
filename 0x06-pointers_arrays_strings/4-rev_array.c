@@ -1,32 +1,24 @@
 #include "main.h"
 
 /**
- * main - check the code
- * @
- * Return: 
+ * reverse_array - reverse array of n length
+ * @a: variable with pointer to array
+ * @n: length of array
+ * Return: void
  */
 
 void reverse_array(int *a, int n)
-x = 0;
-
 {
 	int x = 0;
-	int z = 0;
+	int y = n - 1;
 	int tmp;
 
-	while (s[x] != '\0')
+	while (x < y)
 	{
+		tmp = s[a + x];
+		s[a + x] = s[a + y];
+		s[a + y] = tmp;
 		x++;
-	}
-
-	x--;
-
-	while (z < x)
-	{
-		tmp = s[x];
-		s[x] = s[z];
-		s[z] = tmp;
-		z++;
-		x--;
+		y--;
 	}
 }
