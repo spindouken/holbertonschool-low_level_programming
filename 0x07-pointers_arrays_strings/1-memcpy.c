@@ -1,7 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _memcpy - copy n bytes from memory area src to memory area dest
+ * @dest: memory area destination
+ * @src: memory area source
+ * @n: # of bytes
+ * Return: pointer to dest
  */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	unsigned x = 0;
+
+	while (x < n)
+	{
+		dest[x] = src[x];
+		x++;
+	}
+
+	return (dest);
+}
