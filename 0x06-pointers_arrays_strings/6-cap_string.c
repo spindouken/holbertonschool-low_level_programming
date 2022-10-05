@@ -19,7 +19,7 @@ char *cap_string(char *s)
 
 		while (y < nspcchar)
 		{
-			if ((x == 0 || s[x - 1] == spcchar[x]) && (s[x] >= 97 && s[x] <= 122))
+			if ((x == 0 || s[x - 1] == spcchar[y]) && (s[x] >= 97 && s[x] <= 122))
 				s[x] -= 32;
 			y++;
 		}
