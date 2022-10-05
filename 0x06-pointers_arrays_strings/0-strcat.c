@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 	int x = 0;
 	int y = 0;
 
-	while (*dest)
+	while (*(dest + x))
 		x++;
 
 	while (*(src + y))
