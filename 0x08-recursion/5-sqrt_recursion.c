@@ -12,7 +12,7 @@ int root_finder(int x, int y)
 	if (x * x == y)
 		return (x);
 
-	if (x * x > c)
+	if (x * x > y)
 		return (-1);
 
 	else
