@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * rootfinder - finds the root of n 
+  * root_finder - finds the root of n
   * @x: counter to help find root
   * @y: variable to find root of
   * Return: square root of n or -1
