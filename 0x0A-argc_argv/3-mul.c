@@ -14,7 +14,7 @@ int _atoi(char *s)
 	int conv = 0;
 
 	while (*(s + x) != '\0')
-    {
+	{
 		if (*(s + x) == '-')
 		{
 			sign *= -1;
