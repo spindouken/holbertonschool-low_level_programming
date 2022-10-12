@@ -1,35 +1,35 @@
 #include "main.h"
 
 /**
- * _atoi - prints signed num from string input to SO
+ * _atoi - conv string to int
  * @s: input string
- * Return: 0 if no numbers present
+ * Return: int converted from string
  */
 int _atoi(char *s)
 {
-    int a = 0;
+    int x = 0;
     int sign = -1;
-    int numFlag = 0;
-    int retThis = 0;
+    int flag = 0;
+    int conv = 0;
 
-    while (*(s + a) != '\0')
+    while (*(s + x) != '\0')
     {
-        if (*(s + a) == '-')
+        if (*(s + x) == '-')
         {
             sign *= -1;
         }
-        else if (*(s + a) >= '0' && *(s + a) <= '9')
+        else if (*(s + x) >= '0' && *(s + x) <= '9')
         {
-            retThis *= 10;
-            retThis -= (*(s + a) - 48);
-            numFlag = 1;
+            conv *= 10;
+            conv -= (*(s + x) - 48);
+            flag = 1;
         }
-        else if (numFlag == 1)
+        else if (flag == 1)
         {
             break;
         }
-        a++;
+        x++;
     }
-    retThis = (retThis * sign);
-    return (retThis);
+    conv = (conv * sign);
+    return (conv);
 }
