@@ -2,8 +2,8 @@
 
 /**
   * rootfinder - finds the root of n 
-  * @n: variable to find root of
-  * @i: counter used to calculate square
+  * @x: counter to help find root
+  * @y: variable to find root of
   * Return: square root of n or -1
   */
 
