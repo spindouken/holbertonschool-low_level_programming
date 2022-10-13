@@ -14,9 +14,8 @@ int root_finder(int x, int y)
 
 	if (x * x > y)
 		return (-1);
-
 	else
-		return (root_finder(y, x + 1));
+		return (root_finder(x + 1, y));
 }
 
 /**
@@ -27,5 +26,7 @@ int root_finder(int x, int y)
 
 int _sqrt_recursion(int n)
 {
-	return (root_finder(n, 1));
+	if (n == 0)
+		return (0);
+	return (root_finder(1, n));
 }
