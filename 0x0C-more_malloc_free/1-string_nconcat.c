@@ -39,10 +39,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (y > n)
 		y = n;
 
-	str = malloc(sizeof(char) * (x + y + 1));
-
 	dummy = malloc(2);
 	free(dummy);
+
+	str = malloc(sizeof(char) * (x + y + 1));
 
 	if (str == NULL)
 		return (NULL);
