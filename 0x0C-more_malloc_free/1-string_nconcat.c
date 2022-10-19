@@ -15,26 +15,25 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		x = 0;
-
 	else
-	{
 		x = 0;
 		while (s1[x])
 			x++;
 	}
+
 	if (s2 == NULL)
 		y = 0;
-
 	else
 	{
 		y = 0;
 		while (s2[y])
 			y++;
 	}
+
 	if (y > n)
 		y = n;
-
 	str = malloc(sizeof(char) * (x + y + 1));
+
 	if (str == NULL)
 		return (NULL);
 
@@ -45,5 +44,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		str[z + x] = s2[z];
 
 	str[x + y] = '\0';
+
 	return (str);
 }
