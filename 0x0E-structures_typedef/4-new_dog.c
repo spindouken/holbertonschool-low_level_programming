@@ -62,7 +62,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	_strcpy(dogetown->owner, owner);
 
 	if (!(dogetown))
-		return(NULL);
+		return (NULL);
 
-	return(dogetown);
+	return (dogetown);
 }
