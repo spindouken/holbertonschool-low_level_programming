@@ -50,9 +50,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog_t *dogetown;
 
-	if (!(dogetown) == NULL)
-		return(NULL);
-
 	x = 1 + _strlen(name);
 	y = 1 + _strlen(owner);
 
@@ -64,5 +61,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dogetown->age = age;
 	_strcpy(dogetown->owner, owner);
 
-	return(dogehouse);
+	if (!(dogetown))
+		return(NULL);
+
+	return(dogetown);
 }
