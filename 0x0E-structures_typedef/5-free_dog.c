@@ -2,16 +2,19 @@
 #include "dog.h"
 
 /**
- * print_dog - print the dogetown (dog struct)
+ * free_dog - free the dogetown (dog struct)
  * @d: variable pointer to doge struct
  */
 
 void free_dog(dog_t *d)
 {
-    if (d == NULL)
-    {
-        free (dogetown->owner);
-        free (dogetown->age);
-        free (dogetown->name);
-    }
+	if (d == NULL)
+		return;
+
+	if (d)
+	{
+		free(d->name);
+		free(d->owner);
+		free(d);
+	}
 }
