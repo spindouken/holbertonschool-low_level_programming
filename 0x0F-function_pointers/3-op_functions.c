@@ -12,7 +12,6 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
-
 /**
  * op_sub - get difference of integers
  * @a: first int
