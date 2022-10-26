@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include <stddef.h>
 #include "variadic_functions.h"
 
 /**
@@ -9,11 +10,13 @@
 
 void print_all(const char * const format, ...)
 {
-	va_list betty;
+	char *s;
 	char *delimiter = "";
 	unsigned int x = 0;
+	va_list betty;
 
 	va_start(betty, format);
+
 	while (format && format[x])
 	{
 		switch (format[x])
@@ -28,13 +31,14 @@ void print_all(const char * const format, ...)
 				printf("%s%f", delimiter, va_arg(betty, double));
 				break;
 			case 's':
-				if (betty == NULL)
-				{
-					printf("(nil)");
-					break;
-				}
-				printf("%s%s", delimiter, va_arg(betty, char *));
+				s = va_arg(betty, char *);
+				if (!s)
+					s = "(nil)";
+				printf("%s%s", delimiter, s);
 				break;
+			default:
+				x++;
+				continue;
 		}
 		delimiter = ", ";
 		x++;
