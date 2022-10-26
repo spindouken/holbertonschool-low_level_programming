@@ -39,4 +39,6 @@ void print_all(const char * const format, ...)
 		delimiter = ", ";
 		x++;
 	}
+	printf("\n");
+	va_end(betty);
 }
