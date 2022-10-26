@@ -19,7 +19,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	if (*operator != '+' && *operator != '-' && *operator != '*' && *operator != '/' && *operator != '%')
+	if (*operator != '+' && *operator != '-' && *operator != '*' 
+	&& *operator != '/' && *operator != '%')
 	{
 		  printf("Error\n");
 		exit(99);
@@ -31,6 +32,6 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 	printf("%d\n", get_op_func(argv[2])((atoi(argv[1])), (atoi(argv[3]))));
-	
+
 	return (0);
 }
