@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 	}
 
 	if (*operator != '+' && *operator != '-' && *operator != '*'
-	&& *operator != '/' && *operator != '%' && strlen(operator) != 1)
+	&& *operator != '/' && *operator != '%' || strlen(operator) != 1)
 	{
-		  printf("Error\n");
+		printf("Error\n");
 		exit(99);
 	}
 
