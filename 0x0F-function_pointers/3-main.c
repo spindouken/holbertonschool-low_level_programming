@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 
 	if (*operator != '+' && *operator != '-' && *operator != '*'
-	&& *operator != '/' && *operator != '%' || argv[2] != '\0')
+	&& *operator != '/' && *operator != '%')
 	{
 		  printf("Error\n");
 		exit(99);
