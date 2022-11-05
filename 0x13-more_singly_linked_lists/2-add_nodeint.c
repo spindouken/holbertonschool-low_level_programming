@@ -1,9 +1,10 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
- * add_nodeint - function that returns the number of elements in a linked list listint_t list
- * @h: pointer to head of list_t
+ * add_nodeint - function that returns the number of elements
+ * in a linked list listint_t list
+ * @head: pointer to the address of head of list_t
+ * @n: integer data of new node
  * Return: number of elements in a linked listint_t list
  */
 

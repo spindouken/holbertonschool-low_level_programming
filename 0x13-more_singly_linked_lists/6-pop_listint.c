@@ -19,7 +19,7 @@ int pop_listint(listint_t **head)
 	free(freelord);
 
 	if (*head == NULL)
-		return(0);
+		return (0);
 	else
-		return(data);
+		return (data);
 }
