@@ -33,8 +33,6 @@ int create_file(const char *filename, char *text_content)
 		close(newfile);
 		return (-1);
 	}
-	else
-		write(newfile, text_content, length);
 
 	writevalue = write(newfile, text_content, length);
 	if (writevalue < 0)
