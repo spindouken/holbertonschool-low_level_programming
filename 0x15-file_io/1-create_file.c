@@ -28,12 +28,6 @@ int create_file(const char *filename, char *text_content)
 	if (newfile == -1)
 		return (-1);
 
-	if (text_content == NULL)
-	{
-		close(newfile);
-		return (-1);
-	}
-
 	writevalue = write(newfile, text_content, length);
 	if (writevalue < 0)
 		return (-1);
