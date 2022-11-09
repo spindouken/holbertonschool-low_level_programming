@@ -11,11 +11,12 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	int x = n ^ m;
-	unsigned long int bitcount = 0;
+	int bitcount = 0;
 
 	while (x)
+	{
 		x = x & (x - 1);
 		bitcount++;
-
+	}
 	return (bitcount);
 }
