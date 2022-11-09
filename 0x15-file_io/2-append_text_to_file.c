@@ -14,5 +14,27 @@
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-	
+	int newfile, length = 0;
+	int writevalue;
+
+	if (filename == NULL)
+		return (-1);
+
+	if (text_content)
+	{
+		while (text_content[length])
+			length++;
+	}
+
+	newfile = open(filename, O_WRONLY | O_APPEND);
+
+	if (newfile == -1)
+		return (-1);
+
+	writevalue = write(newfile, text_content, length);
+	if (writevalue < 0)
+		return (-1);
+
+	close(newfile);
+	return (1);
 }
