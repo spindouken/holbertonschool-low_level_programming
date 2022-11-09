@@ -12,11 +12,12 @@
 int create_file(const char *filename, char *text_content)
 {
 	int newfile, length = 0;
+	text_content = 
 
 	if (filename == NULL)
 		return (-1);
 
-	while (text_content != NULL)
+	while (text_content[length])
 		length++;
 
 	newfile = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);
