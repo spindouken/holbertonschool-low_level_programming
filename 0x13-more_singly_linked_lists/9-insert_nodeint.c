@@ -30,7 +30,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	for (nodecounter = 0; nodecounter < (idx - 1); nodecounter++)
 	{
-		if (!(temp) || (temp->next))
+		if (!(temp) || !(temp->next))
 			return (NULL);
 	}
 	node->next = temp->next;
