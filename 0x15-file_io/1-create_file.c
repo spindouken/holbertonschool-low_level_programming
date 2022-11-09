@@ -19,7 +19,7 @@ int create_file(const char *filename, char *text_content)
 	while (text_content != NULL)
 		length++;
 
-	newfile = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0600);
+	newfile = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);
 
 	if (newfile == -1)
 		return (-1);
@@ -33,5 +33,5 @@ int create_file(const char *filename, char *text_content)
 		write(newfile, text_content, length);
 
 	close(newfile);
-	return (-1);
+	return (1);
 }
