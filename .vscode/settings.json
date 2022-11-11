@@ -3,6 +3,7 @@
     "files.associations": {
         "main.h": "c",
         "working 4": "c",
-        "function_pointers.h": "c"
+        "function_pointers.h": "c",
+        "lists.h": "c"
     }
 }
