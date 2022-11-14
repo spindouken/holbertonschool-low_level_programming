@@ -9,3 +9,13 @@
  */
 
 int sum_dlistint(dlistint_t *head)
+{
+	int datasumoflistnodes = 0;
+
+	while (head != NULL)
+	{
+		datasumoflistnodes += head->n;
+		head = head->next;
+	}
+	return (datasumoflistnodes);
+}
