@@ -18,6 +18,8 @@ hash_table_t *hash_table_create(unsigned long int size)
 	firsthashtable->array = malloc(sizeof(hash_node_t *) * size);
 	if (firsthashtable->array == NULL)
 		return (NULL);
+	for (x = 0; x < size; x++)
+		firsthashtable->array[x] = NULL;
 
 	return (firsthashtable);
 }
